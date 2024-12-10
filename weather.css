@@ -1,0 +1,98 @@
+body {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+
+}
+
+.container {
+  position: relative;
+  width: 400px;
+  height: 555px;
+  background-color: brown;
+  border-radius: 16px;
+  padding: 20px;
+  border-radius: 2px solid;
+}
+
+.search-bar {
+  position: relative;
+  width: 100%;
+  height: 55px;
+  background-color: rgb(243, 241, 240);
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.search-bar input {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: 2px solid rgba(18, 168, 237);
+  outline: none;
+  outline: 28px;
+  color: black;
+  padding: 0 4px 0 5px;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 0 48px 0 42px;
+
+  outline: none;
+  border: none;
+}
+
+.search-bar input ::placeholder {
+  color: #e78206;
+  text-transform: capitalize;
+
+}
+
+.search-bar button {
+  position: absolute;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 28px;
+  color: black;
+  cursor: pointer;
+}
+
+.search-bar i {
+  position: absolute;
+  left: 10px;
+  font-size: 20px;
+  color: rgb(9, 0, 0);
+}
+
+.weather-container {
+  text-align: center;
+
+
+}
+
+.weather-container .cloud {
+
+  font-size: 46px;
+  line-height: 1;
+  font-weight: 750;
+  color: aliceblue;
+}
+
+.weather-container .cloudysky {
+
+  font-size: 46px;
+  line-height: 1;
+  font-weight: 750;
+  color: aliceblue;
+}
